@@ -1,0 +1,71 @@
+Kayıt olan her kullanıcının mail adresi ve parolası mevcuttur.
+
+Kayıtlı Kullanıcıların adları mail adresleri ile aynıdır.
+
+kayıtlı Kullancıılar birbirlerindne kullanıcı adları ile ayırt edilirler.
+
+Her mail adresi sadece 1 kullanıcıya ait olabilir
+
+Her kullanıcnın sadece 1 adet avatarı bulunabiir
+
+Her kullanıcının tutorials , quezers ve exercies bilgileri kayıt edilir.
+
+Her girişe ip adres, tutulup kayıt olunmasa bile fakeuser ile işlemini görebilir
+
+Fake userların bilgileri kayıt altına alınmaz
+
+Ana sayfa Tutorials,examples,references certificates gibi tablera tutulur
+
+Her tutorials tek subjectten oluşur.
+
+Her subjectin en az 1 tutorialsı mevcuttur
+
+Her quizes tek subjecten oluşur.
+
+Her subjectin en az 1 quizi mevcuttur.
+
+Her quizde min 10 soru mevcuttur.
+
+Kayıtlı her kullanıcı 1'den fazla quize girebilir, girmeyedebilir
+
+Kayıtlı her kullanıcı 1'den fazla tutorialsa bakabilir, bakmayadabilir
+
+
+1 tutorials'a 1'den fazla kullanıcı bakabilir
+
+Kayıtlı her kullanıcı 1'den fazla exsercies ile uğraşabilir, uğraşmayadabilir
+
+Kayıtlı kullanıcılar Quiz , exerciese ve tutorials ilerlemesine göre puan kazanırlar
+
+Bir kullanıcının hiç puanı olmayabilir yada en az 1 puanı olabilir
+
+Her subject tek group içerisinde bulunur
+
+Her groupun en az 1 subjecti mevcuttur
+
+Her subject en az 1 sayfadan oluşur
+
+Her kullanıcı birçok sertifikaya sahip olabilirHer kullanıcı hiçbir sertifikayada sahip olmayabilir
+
+Her tutorials birden çok içeriğe sahiptir
+
+Her exerciess'i birden fazla kullancın yapabilir
+
+Her exerciess birden çok içeriğe sahiptir
+
+Her quiz birden çok soruya sahiptir
+
+Kayıtlı her kullanıcı birden çok puana sahip olabilir
+
+
+Bir kullanıcının hiç puanıda olmayabilir.
+
+Her ip adresi kullanıcı olmasada tutorialsları görebilir
+
+1 kulllanıcı 1den afzla ip adresi ile giriş yapabilir
+
+Her sertifikayı 1den fazla kullanıcı alabilir
+
+Her girişte İP adresi tutulup Kayıtlı kullanıcı olmayanlara fakeuser ile tablo görülmesi sağlanır
+
+Her kullanıcının toplam puanları mevcuttur

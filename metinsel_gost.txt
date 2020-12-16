@@ -1,0 +1,41 @@
+Page(Page_id:int NOT NULL,Quizess_id: int ,Exercises_id": int ,Examples_id":
+int ,References_id": int ,Tutorıals_id:
+int ,pageLeader_name:VARCHAR(40),Certificate_id":int,note:VARCHAR(200))
+Subject (Subject_id:int,Group_id:int ,Subject_name:VARCHAR(40),Description:TEXT)
+Group(Group_id:INTEGER,Subject_id:INTEGER ,group_name:VARCHAR(40)
+Description:TEXT)
+Tutorials(Tuturials_id:INTEGER ,Subject_id:INTEGER,Tutorials_name":VARCHAR(40),tutorials
+_points":INTEGER,Page_id":INTEGER,Subject_intro":TEXT ,Defoult":TEXT,Content":TEXT )
+Examples(Examples_id:INTEGER,Page_id":INTEGER ,example_type:VARCHAR(40),Content:T
+EXT)
+Exercises(Exercises_id:INTEGER ,Page_id:INTEGER,Subject_id:INTEGER,exercises_name:TEX
+T,exercies_point":INTEGER,Content:TEXT)
+References(Reference_id:INTEGER ,Page_id:INTEGER, Subject_id:
+INTEGER ,Reference_name: VARCHAR(40) ,Content:TEXT )
+Quizess(Quizess_id:INTEGER ,Subject_id:INTEGER,quiz_points:INTEGER ,question_amount:IN
+TEGER)
+Register(register_id:INTEGER ,user_id:INTEGER ,register_date:DATE ,email:VARCHAR(50),not
+e:INTEGER)
+Certificates(Cerificate_id:INTEGER,Subject_id:INTEGER ,Certificate_name:VARCHAR(40),price
+:MONEY,Desciriptions:TEXT)
+User(user_id:INTEGER,email:TEXT,password:vARCHAR(32),quiz_points:NUMERIC,tutorials_p
+oint:NUMERIC ,exercies_point:NUMERIC ,total_point:NUMERIC,note:TEXT)IP(ip_adress:INTEGERuser_id:INTEGER,fakeuser:VARCHAR(40),client_name:VARCHAR(40),c
+lient_id:INTEGER)
+Social Media(Socialmedia_id:INTEGER,Socialmedia_name:VARCHAR(40))
+categories(CategoryID:int(11),CategoryName:varchar(255),Description:varchar(255),Group_id:
+int(20))
+customers(CustomerID:int(11)CustomerName:varchar(255),ContactName:varchar(255)Address:var
+char(255),City:varchar(255),PostalCode:varchar(255),Country:varchar(255),Group_id: int(20))
+employees(EmployeeID:int(11),LastName:varchar(255),FirstName:varchar(255) ,BirthDate:date,Ph
+oto:varchar(255),Notes:text,Group_id: int(20))
+orders(OrderID:int(11),CustomerID:int(11),EmployeeID:int(11),OrderDate:date,ShipperID:int(11),
+Group_id: int(20))
+order_details (OrderDetailID:int(11),OrderID:int(11),ProductID:int(11) ,Quantity:int(11),Group_id:
+int(20))
+products
+(ProductID:int(11),ProductName:varchar(255),SupplierID:int(11),CategoryID:int(11),Unit:varchar(
+255),Price:Money,Group_id: int(20))
+shippers (ShipperID:int(11),ShipperName:varchar(255),Phone:varchar(255),Group_id: int(20))
+suppliers(SupplierID:int(11),SupplierName:varchar(255),ContactName:varchar(255),Address:varch
+ar(255),City:varchar(255) ,PostalCode:varchar(255),Country:varchar(255),Phone:varchar(255),Gro
+up_id: int(20))
